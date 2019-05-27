@@ -1,0 +1,3 @@
+trunc	FALSE
+cut_r1	100
+cur_r2	100
