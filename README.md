@@ -1,7 +1,7 @@
 # Multitaxon inventory reveals highly consistent biodiversity responses to ecospace variation - bioinformatic analyses  
 ___
 
-This repository (R project) contains all data, scripts and links necessary to run the bioinformatic eDNA analyses from the study  **Multitaxon inventory reveals highly consistent biodiversity responses to ecospace variation - bioinformatic analyses**  (Brunbjer et al. (in prep).  
+This repository (R project) contains all data, scripts and links necessary to run the bioinformatic eDNA analyses from the study  **Multitaxon inventory reveals highly consistent biodiversity responses to ecospace variation - bioinformatic analyses**  (Brunbjerg et al. (in prep)).  
 All steps/processes for this study can be carried out on the same computer/platform. But, in practise all analyses were carried out on a linux server setup with 64 processors (AMD Opteron(tm) 6380), except R-scripts, which were run on a MacBook Pro (2.9 GHz Intel Core i7, 16 GB 2133 MHz LPDDR3).
 All analyses were carried out in one directory and sub-directories of this.
 
