@@ -6,7 +6,7 @@ This repository (R project) contains all data, scripts and links necessary to ru
 ## Preparation of OTU tables / sequencing data
 Links to the Illumina sequence data is referenced in the relevant scripts  
 
-### most important CLI tools were used for this study  
+### most important CLI tools used for this study for sequence processing  
 
  * VSEARCH v.2.9 (or later) (https://github.com/torognes/vsearch) 
  * Cutadapt v 1.17 (https://cutadapt.readthedocs.io/en/stable/)  
@@ -22,7 +22,8 @@ Various R-packages were used for this study (see in the relevant markdown files)
  * seq_plots : output directory for the plots/figures produced in the sequence analyses
 
 ### Sequence of analyses
-The preparation of the three different OTU tables used in this study can be carried out in any order as they are not dependent on each other. But they need to be carried out before doind the statistical analyses and modelling.
+The preparation of the three different OTU tables used in this study can be carried out in any order as they are not dependent on each other. But they need to be carried out before doind the statistical analyses and modelling.  
+The rarefaction alayses were not included in the manuscript, but were used to check for potential sequencing depth bias.  
 
 ## Statistical analyses and modelling
 Here AKB will insert an overall description of the scripts necessary to reprosuce the study. Something like:  
