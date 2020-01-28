@@ -19,7 +19,7 @@
 #   mv DADA2_nochim.table art_DADA2_nochim.table
 
 #Get taxonomic affiliation for all OTUs (doint it for the data where chimeras have not been removed.
-#   bash spilt_and_blast.sh DADA2_raw.otus
+#   bash spilt_and_blast.sh DADA2_raw.otus # You could just blast the NOCHIM version if you are sure that is the one you will be using.
 #(resulting file has been zipped due to size)
 
 #lulu matchlist
@@ -46,7 +46,7 @@ saveRDS(lulified_tab,here::here("data","lulified_art_nochim.RDS"))
 source(here::here("R","dereplicate.r"))
 #collapse the two replicates for each sample
 otutab <- read.csv(here::here("seq_processing/arthropod_data","DADA2_nochim.otutable"),sep='\t',header=T,row.names = 1, as.is=TRUE)
-samplelist <- read.table(here::here("in_data","sampleid_arthropod.txt"), header=TRUE, as.is = TRUE)
+samplelist <- read.table(here::here("data","sampleid_arthropod.txt"), header=TRUE, as.is = TRUE)
 derep_tab <- dereplicate(otutab, samplelist)
 
 saveRDS(derep_tab,here::here("data","derep_nochim_arthropod.RDS"))
@@ -91,11 +91,3 @@ edna_tab <- left_join(otu_tab, arthropod_tax, by = "OTU_ID") # add taxonomy
 
 #table with sampling rounds separate
 write.table(edna_tab, here::here("data","arthropod_table_final.txt"), sep = "\t", quote = F, row.names = F)
-
-#Combine sampling rounds
-sitesX <- names(table(substr(names(edna_tab[,1:260]), 1, 5)))
-sitesX2 <- sitesX[order(substr(sitesX, 3, 5))]
-art_otu_tab_combined <- sapply(unique(sitesX2), function(x) rowSums(edna_tab[,grepl(x, colnames(edna_tab))]))
-art_otu_tab_combined <- cbind(art_otu_tab_combined,edna_tab[,-c(1:260)])
-
-saveRDS(art_otu_tab_combined, here::here("data","malaise_arthropod_combined.RDS"))
