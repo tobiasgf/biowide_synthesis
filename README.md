@@ -4,7 +4,7 @@ ___
 This repository (R project) contains all data, scripts and links necessary to run the ecological/statistical analyses as well as the bioinformatic eDNA analyses from the study  **Multi-taxon inventory reveals highly consistent biodiversity responses to ecospace variation**  (Brunbjerg et al.)  
 
 ## Preparation of OTU tables / sequencing data
-Links to the Illumina sequence data is referenced in the relevant scripts  
+Links to the Illumina sequence data is referenced in the relevant scripts.  
 
 ### most important CLI tools used for this study for sequence processing  
 
