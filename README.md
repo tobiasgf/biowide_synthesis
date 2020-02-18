@@ -6,7 +6,7 @@ This repository (R project) contains all data, scripts and links necessary to ru
 ## Preparation of OTU tables / sequencing data
 Links to the Illumina sequence data is referenced in the relevant scripts.  
 
-### most important CLI tools used for this study for sequence processing  
+### most important CLI tools used for this study for sequence processing   
 
  * VSEARCH v.2.9 (or later) (https://github.com/torognes/vsearch) 
  * Cutadapt v 1.17 (https://cutadapt.readthedocs.io/en/stable/)  
