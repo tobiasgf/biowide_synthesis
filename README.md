@@ -26,11 +26,6 @@ The preparation of the three different OTU tables used in this study can be carr
 The rarefaction alayses were not included in the manuscript, but were used to check for potential sequencing depth bias.  
 
 ## Statistical analyses and modelling
-Here AKB will insert an overall description of the scripts necessary to reprosuce the study. Something like:  
-
-The ecological/statistical analyses and modelling employied previously published data and new data (including the sequencing data described above). All data and scripts necessary to reproduce the analyses have been included in this repository and a structured in the following way.  
-
+The ecological/statistical analyses and modelling employed previously published data and new data (including the sequencing data described above). All data and scripts necessary to reproduce the analyses have been included in this repository and are structured in the following way.
   * eco_data: contains all the data produced as part of the analyses here, as well as copies/version of previously published data necessary for the analyses  
-  * eco_processing: contains all  the scripts necessary to perform the analyses/modelling  
-  * eco_plots: contains all figures produced in the ecological analyses  
-  
+  * eco_processing: contains all the scripts necessary to perform the analyses/modelling  

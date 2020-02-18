@@ -1,7 +1,9 @@
 # Analysis Biowide: rarefaction analyses
-# Manuscript: Multitaxon inventory reveals highly consistent biodiversity responses to ecospace variation
+# Manuscript: Multi-taxon inventory reveals highly consistent biodiversity responses to ecospace variation
 # Author: Tobias Guldberg Frøslev
-# Date: 27-05-2019
+# Date: 30-01-2020
+
+# not included in poblication. Simply to test that sequencing depth was adequate for the vast majority of the samples.
 
 #setup
 #### packages ####
