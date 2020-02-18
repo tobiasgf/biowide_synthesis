@@ -25,7 +25,7 @@ Various R-packages were used for this study (see in the relevant markdown files)
 The preparation of the three different OTU tables used in this study can be carried out in any order as they are not dependent on each other. But they need to be carried out before doind the statistical analyses and modelling.  
 The rarefaction alayses were not included in the manuscript, but were used to check for potential sequencing depth bias.  
 
-## Statistical analyses and modelling
+## Statistical analyses and modelling  
 The ecological/statistical analyses and modelling employed previously published data and new data (including the sequencing data described above). All data and scripts necessary to reproduce the analyses have been included in this repository and are structured in the following way.
   * eco_data: contains all the data produced as part of the analyses here, as well as copies/version of previously published data necessary for the analyses  
   * eco_processing: contains all the scripts necessary to perform the analyses/modelling  

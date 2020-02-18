@@ -1,5 +1,5 @@
 # Analysis Biowide: preparing mt16S insect OTU data
-# Manuscript: Multi-taxon inventory reveals highly consistent biodiversity responses to ecospace variation
+# Manuscript: Multi-taxon inventory reveals highly consistent biodiversity responses to ecospace variation  
 # Author: Tobias Guldberg Frøslev
 # Date: 30-01-2020
 
